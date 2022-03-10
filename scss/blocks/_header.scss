@@ -33,6 +33,11 @@
         }
     }
 
+    &_tell{
+        text-decoration: none;
+        color: $black;
+    }
+
     &_fb{
        margin-right: 25px; 
     }
@@ -70,10 +75,10 @@
         letter-spacing: 0em;
         text-align: left;
         cursor: pointer;
-
-        &:hover{
-           background-color: $yashilro;
-        }
+        color: $black;
+          &:hover{
+            background-color: $yashilro;
+          }
 
     }
 
@@ -84,6 +89,10 @@
     display: none;
     &_hom{
         width: 207px;
+    }
+
+    &_hom1{
+        cursor: pointer;
     }
 }
 
@@ -141,11 +150,16 @@
         &::before{
             width: 23px;
             height: 23px;
+            margin-right: 9px;
         }
     }
 
     .mobile_hom{
         width: 100px;
+    }
+    
+    .mobile_hom1{
+        cursor: pointer;
     }
 }
 
@@ -195,5 +209,5 @@
     .desktop_tel{
        display: none;
     }
-
+    
 }
